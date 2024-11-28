@@ -1,0 +1,75 @@
+/*General styling*/
+body {
+    background-color: rgb(247, 215, 175);
+    margin: 0;
+    font-family: cursive;
+}
+
+main {
+    margin: 2%;
+}
+
+
+/*Navigation bar*/
+nav {
+    background-color: antiquewhite;
+    color: black;
+    list-style: none;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a:link { 
+    text-decoration: none; 
+    color: black;
+} 
+
+nav a:visited { 
+    text-decoration: none; 
+    color: black;
+} 
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 5%;
+    padding: 1% 2% 1% 2%;
+}
+
+nav ul li {
+    padding: 1% 2% 1% 2%;
+}
+
+nav li:hover {
+    background: rgb(247, 215, 175);
+}   
+
+
+/*Footer*/
+footer {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/*Skip to main content*/
+#skip:not(:focus) {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 0 !important;
+}
+
+#skip {
+    position: absolute !important;
+    z-index: 100;
+}

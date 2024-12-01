@@ -8,23 +8,25 @@
     <title>Soondubu-Jjigae</title>
 </head>
 <body>
-    <a href="#main" id="skip">Skip to main content</a>
-    <div class="banner">
-        <img src="../images/Soondubu_Jjigae.jpg" alt="Bowl of Soondubu-Jjigae" id="cover-image"/>
-        <p>Soondubu-Jjigae</p>
-    </div>
+    <header>
+        <a href="#main" id="skip">Skip to main content</a>
+        <div class="banner">
+            <img src="../images/Soondubu_Jjigae.jpg" alt="Bowl of Soondubu-Jjigae" id="cover-image"/>
+            <h1>Soondubu-Jjigae</h1>
+        </div>
+    </header>
     <nav>
         <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#recipes">Recipes</a></li>
+            <li><a href="/index.html#recipe-title">Recipes</a></li>
             <li><a href="/index.html#about">About Me</a></li>
         </ul>
     </nav>
     <main id="main">
         <div class="overview">
-            <p>Prep time: 5-10 min</p>
-            <p>Cook time: 15-20 min</p>
-            <p>Rating: 4/5</p>
+            <p><b>Prep time:</b> 5-10 min</p>
+            <p><b>Cook Time:</b> 15-20 min</p>
+            <p><b>Rating:</b> 4/5</p>
         </div>
         
         <div class="description">
@@ -39,30 +41,30 @@
             <b>WHAT YOU'LL NEED</b>
             <p>MAIN</p>
             <ul> 
-                <li><label><input type="checkbox" name="Soft Tofu" value="1"> Soft Tofu</label></li> 
-                <li><label><input type="checkbox" name="Enoki Mushrooms" value="2"> Enoki Mushrooms</label></li> 
-                <li><label><input type="checkbox" name="Shiitake Mushrooms" value="3"> Shiitake Mushrooms</label></li> 
-                <li><label><input type="checkbox" name="Protein" value="4"> Any type of Protein (shrimp, clam, spam, beef, pork, etc.)</label></li> 
-                <li><label><input type="checkbox" name="Onions" value="5"> Onions</label></li> 
-                <li><label><input type="checkbox" name="Rice Cakes" value="6"> Rice Cakes</label></li> 
-                <li><label><input type="checkbox" name="Egg" value="7"> Egg</label></li> 
-                <li><label><input type="checkbox" name="Green Onion" value="8"> Green Onion</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Soft Tofu" value="1" aria-label="Soft Tofu"> Soft Tofu</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Enoki Mushrooms" value="2" aria-label="Enoki Mushrooms"> Enoki Mushrooms</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Shiitake Mushrooms" value="3" aria-label="Shiitake Mushrooms"> Shiitake Mushrooms</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Protein" value="4" aria-label="Protein"> Any type of Protein (shrimp, clam, spam, beef, pork, etc.)</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Onions" value="5" aria-label="Onions"> Onions</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Rice Cakes" value="6" aria-label="Rice Cakes"> Rice Cakes</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Egg" value="7" aria-label="Egg"> Egg</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Green Onion" value="8" aria-label="Green Onion"> Green Onion</label></li> 
             </ul>
             <p>FLAVORING</p>
             <ul>
-                <li><label><input type="checkbox" name="Chili" value="9"> Chili Pepper, Flakes, and Oil</label></li> 
-                <li><label><input type="checkbox" name="Gochujang" value="10"> Gochujang</label></li> 
-                <li><label><input type="checkbox" name="Soy Sauce" value="11"> Soy Sauce</label></li> 
-                <li><label><input type="checkbox" name="Seseame Oil" value="12"> Seseame Oil</label></li> 
-                <li><label><input type="checkbox" name="Fish Sauce" value="13"> Fish Sauce</label></li> 
-                <li><label><input type="checkbox" name="Garlic" value="14"> Garlic</label></li> 
-                <li><label><input type="checkbox" name="Ginger" value="15"> Ginger</label></li> 
-                <li><label><input type="checkbox" name="Salt and Pepper" value="16"> Salt and Pepper</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Chili" value="9" aria-label="Chili"> Chili Pepper, Chili Flakes, and Chili Oil</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Gochujang" value="10" aria-label="Gochujang"> Gochujang</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Soy Sauce" value="11" aria-label="Soy Sauce"> Soy Sauce</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Seseame Oil" value="12" aria-label="Seseame Oil"> Seseame Oil</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Fish Sauce" value="13" aria-label="Fish Sauce"> Fish Sauce</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Garlic" value="14" aria-label="Garlic"> Garlic</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Ginger" value="15" aria-label="Ginger"> Ginger</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Salt and Pepper" value="16" aria-label="Salt and Pepper"> Salt and Pepper</label></li> 
             </ul> 
         </div>
 
         <div class="instructions">
-            <b>INSTRUCTIONS</b>
+            <h2>INSTRUCTIONS</h2>
             <ol>
                 <li>Start heating the pot on the stove over medium low heat and add all the 
                     chili stuff as well as garlic. Stir them well for about 1 min. Make sure not to burn anything.
@@ -97,4 +99,5 @@
         </div>
     </footer>
 </body>
+<script src = "../js/strikethrough.js"> </script>
 </html>

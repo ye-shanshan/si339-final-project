@@ -3,6 +3,7 @@ body {
     background-color: rgb(247, 215, 175);
     margin: 0;
     font-family: cursive;
+    font-size: large;
 }
 
 main {
@@ -52,7 +53,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 footer p {
@@ -72,4 +73,5 @@ footer p {
 #skip {
     position: absolute !important;
     z-index: 100;
+    background-color: antiquewhite;
 }

@@ -8,44 +8,109 @@
     <title>Tonkatsu</title>
 </head>
 <body>
-    <a href="#main" id="skip">Skip to main content</a>
-    <div class="banner">
-        <img src="../images/Tonkatsu.jpg" alt="Plate of tonkatsu on rice with shredded lettuce" id="cover-image"/>
-        <p>Tonkatsu</p>
-    </div>
+    <header>
+        <a href="#main" id="skip">Skip to main content</a>
+        <div class="banner">
+            <img src="../images/Tonkatsu.jpg" alt="Plate of Tonkatsu on rice with shredded cabbage" id="cover-image"/>
+            <h1>Tonkatsu</h1>
+        </div>
+    </header>
     <nav>
         <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#recipes">Recipes</a></li>
+            <li><a href="/index.html#recipe-title">Recipes</a></li>
             <li><a href="/index.html#about">About Me</a></li>
         </ul>
     </nav>
     <main id="main">
         <div class="overview">
-            <p>Prep time: 5 min</p>
-            <p>Cook time: 15-20 min</p>
-            <p>Rating: 5/5</p>
+            <p><b>Prep time:</b> 5-10 min</p>
+            <p><b>Cook Time:</b> 15-20 min</p>
+            <p><b>Rating:</b> 5/5</p>
         </div>
         
         <div class="description">
-            <p>Tonkatsu, or pork cutlets, </p>
-            <p>This is a</p>
+            <p>Tonkatsu, or pork cutlet, is a fun and delicious dish to make at home!</p>
+            <p>
+                Tonkatsu is a classic Japanese dish made of juicy, tender pork coated in crispy panko 
+                breadcrumbs and fried until golden brown. It's served with a sweet and tangy tonkatsu sauce 
+                that you can either make at home or buy at the store. (I buy it because who has time to 
+                make it? Just kidding, it's super easy to make too if you want to!) You'll typically see 
+                Tonkatsu on rice with a side of shredded cabbage, as everything goes together so nicely. 
+                This is super simple to make and wow your friends with!
+            </p>
         </div>
 
         <div class="recipe">
             <b>WHAT YOU'LL NEED</b>
             <p>MAIN</p>
             <ul> 
-                <li><label><input type="checkbox" name="Pork Chop" value="1"> Pork Chop</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Pork Chop" value="1" aria-label="Pork Chop"> Pork Chop</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Panko Flakes" value="2" aria-label="Panko Flakes"> Panko Flakes</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Flour" value="3" aria-label="Flour"> Flour</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Egg" value="4" aria-label="Panko Flakes"> Egg</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Salt and Pepper" value="5" aria-label="Salt and Pepper"> Salt and Pepper</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Cabbage" value="6" aria-label="Cabbage"> Cabbage</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Neutral Oil" value="7" aria-label="Neutral Oil"> Neutral Oil</label></li> 
             </ul>
-            <p>FLAVORING</p>
+            <p>TONKATSU SAUCE</p>
             <ul>
+                <li><label><input class="checkbox" type="checkbox" name="Ketchup" value="8" aria-label="Ketchup"> Ketchup</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Soy Sauce" value="9" aria-label="Soy Sauce"> Soy Sauce</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Worcestershire Sauce" value="10" aria-label="Worcestershire Sauce"> Worcestershire Sauce</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Sugar" value="11" aria-label="Sugar"> Sugar</label></li> 
+                <li><label><input class="checkbox" type="checkbox" name="Garlic and Onion Powder" value="12" aria-label="Garlic and Onion Powder"> Garlic and Onion Powder</label></li> 
             </ul> 
         </div>
 
         <div class="instructions">
-            <b>INSTRUCTIONS</b>
+            <h2>INSTRUCTIONS</h2>
             <ol>
+                <li>
+                    Pound the pork loin or pork chop flat until it's thin.
+                </li>
+                <li>
+                    Using scissors or a knife, cut slits into your flattened pork against the grain. 
+                    This prevents it from curling up as it cooks.
+                </li>
+                <li>
+                    Next, add salt and pepper to your flour and coat your pork with it. Shake off the 
+                    excess. This traps the moisture in and keeps your katsu juicy!
+                </li>
+                <li>
+                    Add about a tablespoon of flour to the egg and mix them together. This creates a thicker 
+                    egg wash that allows for more breadcrumbs to stick to. Dip the pork into the egg and let 
+                    the excess drip off.
+                </li>
+                <li>
+                    Transfer the pork to the panko bread crumbs and press firmly to create a thick layer of 
+                    crust that won't flake off when frying. Be sure to cover any bare spots with breading.
+                </li>
+                <li>
+                    Heat the oil to 340 degrees F over medium heat. Medium heat is essential to cook the pork 
+                    thoroughly without burning the bread crumbs. If you don't have anything to measure temperature,
+                    I like to use the chopstick trick: put the tip of your chopstick in and if the oil starts
+                    bubbling around it, then it's ready!
+                </li>
+                <li>
+                    Gently lower the pork cutlet away from you into the oil and fry it for about 5-10 minutes.
+                </li>
+                <li>
+                    Take it out and let it rest until room temperature. 
+                </li>
+                <li>
+                    Clean the oil of any excess panko crumbs that fell off and place the katsu back in. By double
+                    frying, this will keep it extra crispy! Take it out when it's ready (about 5 min).
+                </li>
+                <li>
+                    Shred your cabbage and add some dressing. You can also use the tonkatsu sauce!
+                </li>
+                <li>
+                    Serve your tonkatsu no a bed of rice with a side of cabbage. Drizzle tonkatsu sauce on it.
+                </li>
+                <li>
+                    Enjoy!
+                </li>
             </ol>
         </div>
     </main>
@@ -57,4 +122,5 @@
         </div>
     </footer>
 </body>
+<script src = "../js/strikethrough.js"> </script>
 </html>

@@ -1,17 +1,12 @@
 .banner {
     position: relative;
     display: inline-block;
-    width: 100%;
-    height: 100vh;
+    width: auto;
+    height: 50%;
     overflow: hidden;
 }
 
-#cover-image {
-    display: block;
-    width: 100%;
-}
-
-.banner p {
+.banner h1 {
     position: absolute;
     top: 25%; 
     left: 50%; 
@@ -19,11 +14,99 @@
     background-color: antiquewhite; 
     color: black; 
     padding: 10px 20px; 
-    font-size: 100px; 
+    font-size: 50px; 
+    font-weight: 100;
     text-align: center;
     vertical-align: middle;
 }
 
+@media only screen and (min-width: 1250px) {
+    .banner {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .banner h1 {
+        position: absolute;
+        top: 25%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        background-color: antiquewhite; 
+        color: black; 
+        padding: 10px 20px; 
+        font-size: 100px; 
+        font-weight: 100;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+#cover-image {
+    display: block;
+    width: 100%;
+}
+
+.overview {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+.description {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.recipe {
+    background-color: antiquewhite;
+    box-shadow: 10px 10px rgb(159, 150, 137);
+    width: 75%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Papyrus';
+}
+
+@media only screen and (min-width: 768px) {
+    .recipe {
+        background-color: antiquewhite;
+        box-shadow: 10px 10px rgb(159, 150, 137);
+        width: 35%;
+        margin: auto;
+        padding: 2%;
+        font-family: 'Papyrus';
+    }
+}
+
+.recipe b {
+    font-weight: bolder;
+}
+
 .recipe ul li {
     list-style-type: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.instructions {
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.instructions ol li {
+    margin-top: 2%;
+}
+
+.instructions ol > li::marker {
+    font-weight: bold;
 }
